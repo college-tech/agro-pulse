@@ -13,9 +13,9 @@ dist-ssr
 *.local
 
 .env
-!.env.example
 .env.*
 *.env
+!.env.example
 
 # Firebase / local secrets
 serviceAccountKey.json
