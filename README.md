@@ -20,6 +20,7 @@ Small urban gardens and community plant projects lack an affordable, easy-to-use
 - **Frontend:** React, Vite, Tailwind CSS, React Router, Recharts.
 - **Backend / ML:** Python, firebase-admin, joblib, pandas, numpy, scikit-learn.
 - **Cloud / Realtime:** Firebase Realtime Database, Firestore, Cloud Functions, Firebase Auth.
+- **IoT:** soil moisture, bme280
 
 **System Architecture (high level):**
 1. IoT sensors -> Firebase Realtime Database (`sensorData/{plant_id}`)
@@ -55,7 +56,6 @@ python backend/app.py
 ```bash
 npm install -g firebase-tools
 firebase login
-firebase deploy --only functions
 ```
 
 **Firebase Data Structure:**
@@ -70,8 +70,9 @@ firebase deploy --only functions
 			- `ml`: object with `health`, `confidence`
 	- `UsersDetail/{uid}`: user profile documents kept in sync by Cloud Functions
 
-**Contributors:**
+**Author:**
 - Subhadip Mondal <rocker909090@gmail.com>
+- Akanksha Singh
 
 ---
 
