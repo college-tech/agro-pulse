@@ -71,7 +71,7 @@ firebase login
 	- `UsersDetail/{uid}`: user profile documents kept in sync by Cloud Functions
 
 **Author:**
-- Subhadip Mondal <rocker909090@gmail.com>
+- Subhadip Mondal 
 - Akanksha Singh
 
 ---
